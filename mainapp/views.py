@@ -7,15 +7,23 @@ class IndexView(TemplateView):
     template_name = "mainapp/index.html"
 
 
-class LoginView(TemplateView):
-    template_name = "mainapp/login.html"
+class AboutView(TemplateView):
+    template_name = "mainapp/about.html"
 
 
-class RequestView(TemplateView):
-    template_name = "mainapp/request.html"
+class ContactView(TemplateView):
+    template_name = "mainapp/contact.html"
 
 
-class ResponseView(TemplateView):
-    template_name = "mainapp/response.html"
+class ProductsView(TemplateView):
+    template_name = "mainapp/products.html"
+
+
+class ProductDetailView(TemplateView):
+    template_name = "mainapp/productdetail.html"
+
+
+class ShoppingCartView(TemplateView):
+    template_name = "mainapp/shoppingcart.html"
 
 
